@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+  video{
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
+
+.stage {
+top: 150px;
+font-size: 40px;
+text-align: center;
+left: 0px;
+top: 0px;
+width: 90%;
+height: 800px;
+background: #ddd;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wholebody {
+background: rgb(57, 160, 100);
+
+/* To hide uncomment this*/
+/* background: #ddd; */
+
+margin-left: 10px;
+margin-top: -20px;
+width: 240px;
+height: 400px;
+margin-top: 160px;
+
+animation: geeks 16s infinite;
+}
+
+@keyframes geeks {
+0% {
+margin-left: 10%;
+}
+
+10% {
+margin-left: 80%;
+}
+
+15% {
+margin-right: 85%;
+}
+
+17% {
+margin-left: 10%;
+}
+
+25% {
+margin-right: 38%;
+}
+
+35% {
+margin-left: 40%;
+}
+
+51% {
+margin-left: 40%;
+}
+
+54% {
+margin-left: 40%;
+}
+
+57% {
+margin-left: 40%;
+}
+
+82% {
+margin-left: 40%;
+}
+/* 
+81% {
+margin-: 0%;
+}
+
+82% {
+margin-: 0%;
+}
+
+88% {
+margin-: 0%;
+} */
+
+89% {
+margin-left: 0%;
+}
+
+100% {
+margin-left: 30%;
+}
+}
+.head {
+  background-image: url("p-removebg-preview.png");             background-size:cover; 
+ background-color: (57, 160, 100); 
+width: 50%;
+height: 90px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+
+}
+.body {
+background: black;
+width: 45%;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10%;
+}
+.leg1 {
+background: rgb(230, 218, 43);
+width: 15%;
+height: 250px;
+margin-left: auto;
+margin-right: 30%;
+border-radius: 10%;
+}
+.leg2 {
+background: rgb(230, 218, 43);
+width: 15%;
+height: 250px;
+margin-left: 30%;
+margin-right: auto;
+margin-top: -105%;
+border-radius: 10%;
+}
+.arm1 {
+  
+background: rgb(230, 218, 43);
+width: 15%;
+height: 150px;
+margin-left: auto;
+margin-right: 15%;
+margin-top: -185%;
+border-radius: 10%;
+
+animation: geeks2 18s infinite;
+}
+
+@keyframes geeks2 {
+
+  19%  {
+  rotate: 0deg;
+}
+25%  {
+  rotate: 0deg;
+}
+29%  {
+  rotate: -45deg;
+}
+30%  {
+  rotate: -90deg;
+}
+32%  {
+  rotate: -65deg;
+}
+38%  {
+  rotate: -60deg;
+}
+
+  39%  {
+  rotate: 0deg;
+}
+
+ 44% {
+rotate: -60deg;
+}
+
+48% {
+  rotate: -90deg; 
+}
+
+51% {
+  rotate: 90deg; 
+}
+
+54% {
+  rotate: -60deg;
+}
+
+57% {
+rotate: 65deg;
+}
+
+59% {
+  rotate: -60deg;
+}
+
+61% {
+rotate: -90deg;
+}
+
+64% {
+  rotate: 60deg;
+}
+}
+.arm2 {
+background: rgb(230, 218, 43);
+width: 15%;
+height: 150px;
+margin-left: 15%;
+margin-right: auto;
+margin-top: -63%;
+border-radius: 10%;
+
+ animation: geeks3 18s infinite;
+}
+
+@keyframes geeks3 {
+ 
+  19%  {
+  rotate: 0deg;
+}
+25%  {
+  rotate: 0deg;
+}
+29%  {
+  rotate: 45deg;
+}
+30%  {
+  rotate: 90deg;
+}
+32%  {
+  rotate: 65deg;
+}
+  39%  {
+  rotate: 60deg;
+}
+
+ 44% {
+rotate: -60deg;
+}
+
+48% {
+  rotate: -90deg; 
+}
+
+51% {
+  rotate: 90deg; 
+}
+
+54% {
+  rotate: -60deg;
+}
+
+57% {
+rotate: 65deg;
+}
+
+59% {
+  rotate: -60deg;
+}
+
+61% {
+rotate: -90deg;
+}
+
+64% {
+  rotate: 60deg;
+}
+
+}
+</style>
+</head>
+<body>
+<div class="stage">
+<video width="280" height="250"  controls autoplay loop>
+  <source src="dance (rotate).mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<div class="wholebody">
+<div class="head">
+</div>
+<div class="body">
+</div>
+<div class="leg1">
+</div>
+<div class="leg2">
+</div>
+<div class="arm1">
+</div>
+<div class="arm2">
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
